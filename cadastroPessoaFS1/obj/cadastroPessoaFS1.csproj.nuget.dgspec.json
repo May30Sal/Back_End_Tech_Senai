@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MAYSA\\Desktop\\UC12_SA1\\cadastroPessoaFS1\\cadastroPessoaFS1.csproj": {}
+    "C:\\Users\\MAYSA\\Desktop\\UC12_SA1\\SA2\\cadastroPessoaFS1\\cadastroPessoaFS1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MAYSA\\Desktop\\UC12_SA1\\cadastroPessoaFS1\\cadastroPessoaFS1.csproj": {
+    "C:\\Users\\MAYSA\\Desktop\\UC12_SA1\\SA2\\cadastroPessoaFS1\\cadastroPessoaFS1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MAYSA\\Desktop\\UC12_SA1\\cadastroPessoaFS1\\cadastroPessoaFS1.csproj",
+        "projectUniqueName": "C:\\Users\\MAYSA\\Desktop\\UC12_SA1\\SA2\\cadastroPessoaFS1\\cadastroPessoaFS1.csproj",
         "projectName": "cadastroPessoaFS1",
-        "projectPath": "C:\\Users\\MAYSA\\Desktop\\UC12_SA1\\cadastroPessoaFS1\\cadastroPessoaFS1.csproj",
+        "projectPath": "C:\\Users\\MAYSA\\Desktop\\UC12_SA1\\SA2\\cadastroPessoaFS1\\cadastroPessoaFS1.csproj",
         "packagesPath": "C:\\Users\\MAYSA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MAYSA\\Desktop\\UC12_SA1\\cadastroPessoaFS1\\obj\\",
+        "outputPath": "C:\\Users\\MAYSA\\Desktop\\UC12_SA1\\SA2\\cadastroPessoaFS1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\MAYSA\\AppData\\Roaming\\NuGet\\NuGet.Config"
