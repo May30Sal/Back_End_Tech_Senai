@@ -10,5 +10,6 @@ namespace cadastroPessoaFS1.classes
         
         
         public abstract float PagarImposto(float rendimento);
+
     }
 }

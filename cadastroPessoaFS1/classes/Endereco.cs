@@ -9,5 +9,11 @@ namespace cadastroPessoaFS1.classes
         public string ?cidade { get;set; }
 
         public bool ?endComercial { get; set; }
+
+        //método para ler o endereço completo no console
+        public override string ToString() {
+            return this.logradouro + " " + this.numero + " " + this.cidade + " " + this.endComercial;
+        }
     }
+
 }

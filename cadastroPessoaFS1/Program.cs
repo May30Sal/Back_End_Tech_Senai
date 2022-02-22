@@ -7,30 +7,47 @@ using cadastroPessoaFS1.classes;
 PessoaFisica metodoPF = new PessoaFisica();
 
 PessoaFisica novaPF = new PessoaFisica();
-Endereco novoEnd = new Endereco();
+Endereco novoEndPF = new Endereco();
 
 novaPF.nome = "Mayara";
 novaPF.cpf = "4589875687";
 novaPF.dataNascimento = "05/08/2000";
 novaPF.rendimento = 1000.5f;
-novaPF.endereco = novoEnd;
+novaPF.endereco = novoEndPF;
 
-novoEnd.logradouro = "Rua Matos";
-novoEnd.numero = 2;
-novoEnd.cidade = "Campos";
-novoEnd.endComercial = false;
+novoEndPF.logradouro = "Rua Matos";
+novoEndPF.numero = 2;
+novoEndPF.cidade = "Campos";
+novoEndPF.endComercial = false;
 
 bool dataValida = metodoPF.ValidarDataNascimento(novaPF.dataNascimento);
 
 
-Console.WriteLine(novaPF.endereco.cidade);
+//Console.WriteLine(novaPF.endereco.cidade);
 
-Console.WriteLine(@$"Nome: {novaPF.nome}
-Endereço: {novaPF.endereco.logradouro}, {novaPF.endereco.cidade}
-Maior de idade: {dataValida}"
-);
+//Console.WriteLine(@$"Nome: {novaPF.nome}
+//Endereço: {novaPF.endereco.logradouro}, {novaPF.endereco.cidade}
+//Maior de idade: {dataValida}"
+//);
+
+PessoaJuridica metodopj = new PessoaJuridica();
+
+PessoaJuridica novaPJ = new PessoaJuridica();
+Endereco novoEndPJ = new Endereco();
+
+novaPJ.nome = "teste 001";
+novaPJ.cnpj = "12.345.678/0001-00";
+novaPJ.razaosocial = "Razao Social PJ";
+novaPJ.rendimento = 8000.5f;
+novaPJ.endereco = novoEndPJ;
+
+novoEndPJ.logradouro = "Rua teste";
+novoEndPJ.numero = 3;
+novoEndPJ.cidade = "Campos";
+novoEndPJ.endComercial = true;
+
+Console.WriteLine($@"{novaPJ.ToString()}
+{metodopj.ValidarCnpj(novaPJ.cnpj)}");
 
 
-// PessoaJuridica novaPJ = new PessoaJuridica();
-// novaPJ.nome = "teste 001";
-// Console.WriteLine($"nome: " + (novaPJ.nome));
+//Console.WriteLine($"{metodopj.ValidarCnpj("00000000000100")}");

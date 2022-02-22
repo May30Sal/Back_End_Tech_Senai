@@ -7,8 +7,7 @@ namespace cadastroPessoaFS1.classes
         public string ?cpf { get; set; }
 
         public string ?dataNascimento { get; set; }
-        
-        
+           
 
           public bool ValidarDataNascimento(string dataNasc)
         {
@@ -32,6 +31,11 @@ namespace cadastroPessoaFS1.classes
         public override float PagarImposto(float rendimento)
         {
             throw new NotImplementedException();
+        }
+
+         //método para ler os atributos da classe no console
+         public override string ToString() {
+            return this.nome + " " + this.cpf + " " + this.dataNascimento + " " + this.rendimento;
         }
     }
 }
