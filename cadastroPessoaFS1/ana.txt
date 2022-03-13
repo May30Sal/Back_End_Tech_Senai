@@ -1,0 +1,5 @@
+Nome:ana
+Data de Nascimento: 06/09/2001
+CPF: 12987496598 
+Endereço: Endereço: rua teste 85, pirai. Endereço comercial? Não
+Rendimento: 1002,65
